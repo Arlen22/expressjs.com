@@ -16,10 +16,12 @@ Node.js vulnerabilities directly affect Express. Therefore [keep a watch on Node
 The list below enumerates the Express vulnerabilities that were fixed in the specified version update.
 
 **NOTE**: If you believe you have discovered a security vulnerability in Express, please see
-[Security Policies and Procedures](https://github.com/strongloop/express/blob/master/Security.md).
+[Security Policies and Procedures](/{{ page.lang }}/resources/contributing.html#security-policies-and-procedures).
 
 ## 4.x
 
+  * 4.14
+    * Update to [jshttp/negotiator module](https://www.npmjs.com/package/negotiator) fixes a [regular expression denial of service vulnerability](https://nodesecurity.io/advisories/106).
   * 4.11.1
     * Fixed root path disclosure vulnerability in `express.static`, `res.sendfile`, and `res.sendFile`
   * 4.10.7
